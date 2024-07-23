@@ -88,7 +88,7 @@ const PdfViewer = ({
         <EnterFullScreenButton />
       </div>
       <Worker
-        workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjsVersion}/legacy/build/pdf.worker.js`}
+        workerUrl={`//unpkg.com/pdfjs-dist@${pdfjsVersion}/build/pdf.worker.min.js`}
       >
         <div className="pdf-viewer-container">
           <Viewer
