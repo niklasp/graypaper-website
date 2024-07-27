@@ -34,7 +34,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ actions }) => {
   console.info("Creating pages")
   lectures.forEach((lecture) => {
     actions.createPage({
-      path: `/lectures/${slugify(lecture.section)}/`,
+      path: `/lectures/${slugify(lecture.section)}`,
       component: path.resolve(`./src/components/LectureView.tsx`),
       context: { lectureSection: lecture.section },
     })
