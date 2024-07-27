@@ -27,6 +27,7 @@ const config: GatsbyConfig = {
         useLangKeyLayout: false,
       },
     },
+    `gatsby-plugin-netlify`,
   ],
 }
 
