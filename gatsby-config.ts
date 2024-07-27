@@ -7,6 +7,7 @@ const config: GatsbyConfig = {
   },
   graphqlTypegen: true,
   plugins: [
+    "gatsby-plugin-netlify",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
@@ -27,7 +28,6 @@ const config: GatsbyConfig = {
         useLangKeyLayout: false,
       },
     },
-    `gatsby-plugin-netlify`,
   ],
 }
 
